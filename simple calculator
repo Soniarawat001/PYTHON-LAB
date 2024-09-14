@@ -1,0 +1,25 @@
+# Simple calculator
+x= int(input(
+    "enter your 1st no.:"
+))
+y= int(input(
+    "enter your 2nd no.:"
+))
+print(
+    " enter your expression \n + for addition \n - for subtraction \n * for multiply \n / for division "
+)
+z=input(
+    "enter:"
+)
+if(z=="+"):
+    print(x+y)
+elif(z=="-"):
+    print(x-y)
+elif(z=="*"):
+    print(x*y)
+elif(z=="/"):
+    print(x/y)
+else:
+    print(
+        "not possilbe"
+    )
